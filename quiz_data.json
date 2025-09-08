@@ -1,0 +1,1014 @@
+{
+  "metadata": {
+    "title": "Quiz ISTQB Foundation",
+    "total_questions": 40,
+    "total_points": 40,
+    "description": "Quiz basé sur le syllabus ISTQB Foundation"
+  },
+  "questions": [
+    {
+      "id": 1,
+      "question_text": "Qu'est-ce que la qualité ?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Une partie de la gestion de la qualité qui vise à donner confiance dans le fait que les exigences de qualité seront satisfaites."
+        },
+        {
+          "id": "b",
+          "text": "Le degré auquel un composant, un système ou un processus répond aux exigences spécifiées et/ou aux besoins et attentes des utilisateurs/clients."
+        },
+        {
+          "id": "c",
+          "text": "Le degré auquel un composant ou un système protège l'information et les données de sorte que les personnes ou d'autres composants ou systèmes disposent du degré d'accès correspondant à leurs types et niveaux d'autorisation."
+        },
+        {
+          "id": "d",
+          "text": "Les coûts totaux encourus pour les activités et les problèmes de qualité et souvent divisés en coûts de prévention, coûts d'évaluation, coûts de défaillance interne et coûts de défaillance externe."
+        }
+      ],
+      "correct_answer": "b",
+      "explanations": {}
+    },
+    {
+      "id": 2,
+      "question_text": "Lequel des éléments suivants est un objectif de test typique ?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Prévenir les défauts"
+        },
+        {
+          "id": "b",
+          "text": "Réparer les défauts"
+        },
+        {
+          "id": "c",
+          "text": "Comparer les résultats réels aux résultats attendus"
+        },
+        {
+          "id": "d",
+          "text": "Analyser la cause d'une défaillance"
+        }
+      ],
+      "correct_answer": "a",
+      "explanations": {}
+    },
+    {
+      "id": 3,
+      "question_text": "La sonnerie d'un téléphone dans un box adjacent distrait momentanément un programmeur, ce qui l'amène à programmer incorrectement la logique qui vérifie la limite supérieure d'une variable d'entrée. Plus tard, pendant le test du système, un testeur remarque que ce champ d'entrée accepte des valeurs d'entrée non valides. La logique mal codée pour la vérification de la limite supérieure est.. :",
+      "options": [
+        {
+          "id": "a",
+          "text": "la cause racine"
+        },
+        {
+          "id": "b",
+          "text": "La défaillance"
+        },
+        {
+          "id": "c",
+          "text": "L'erreur"
+        },
+        {
+          "id": "d",
+          "text": "Le défaut"
+        }
+      ],
+      "correct_answer": "d",
+      "explanations": {}
+    },
+    {
+      "id": 4,
+      "question_text": "Un product owner (PO) dit que votre rôle en tant que testeur dans une équipe Agile est de trouver tous les bugs avant la fin de chaque itération. Lequel des énoncés suivants est un principe de test qui pourrait être utilisé pour répondre à cette affirmation ?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Regroupement des défauts"
+        },
+        {
+          "id": "b",
+          "text": "Les tests montrent la présence de défauts"
+        },
+        {
+          "id": "c",
+          "text": "L’illusion d’absence d'erreur"
+        },
+        {
+          "id": "d",
+          "text": "Analyse des causes racines"
+        }
+      ],
+      "correct_answer": "b",
+      "explanations": {}
+    },
+    {
+      "id": 5,
+      "question_text": "Les programmeurs écrivent et exécutent souvent des tests unitaires sur le code qu'ils ont écrit. Au cours de cette activité d'auto-test, lequel des éléments suivants est un état d'esprit de testeur que les programmeurs devraient adopter pour effectuer tests unitaires de manière efficace ?",
+      "options": [
+        {
+          "id": "a",
+          "text": "De bonnes compétences en communication"
+        },
+        {
+          "id": "b",
+          "text": "Couverture du code"
+        },
+        {
+          "id": "c",
+          "text": "Évaluation des défauts du code"
+        },
+        {
+          "id": "d",
+          "text": "Attentif aux détails"
+        }
+      ],
+      "correct_answer": "d",
+      "explanations": {}
+    },
+    {
+      "id": 6,
+      "question_text": "Considérez les activités de test suivantes : 1. Sélectionner les tests de régression 2. Evaluer la complétude de l'exécution des tests 3. Identifier les user stories qui ont des rapports de défauts ouverts 4. Évaluer si le nombre de tests pour chaque exigence est cohérent avec le niveau de risque du produit. Considérez les façons suivantes dont la traçabilité peut aider les tests : A. Améliorer la compréhensibilité des rapports de statut des tests pour inclure le statut des éléments de base des tests B. Rendre les tests auditables C. Fournir des informations pour évaluer la qualité du processus D. Analyser l'impact des changements Lequel des énoncés suivants correspond le mieux à l'activité de test et à la façon dont la traçabilité peut aider cette activité ?",
+      "options": [
+        {
+          "id": "a",
+          "text": "1D, 2B, 3C, 4A"
+        },
+        {
+          "id": "b",
+          "text": "1B, 2D, 3A, 4C"
+        },
+        {
+          "id": "c",
+          "text": "1D, 2C, 3A, 4B"
+        },
+        {
+          "id": "d",
+          "text": "1D, 2B, 3A, 4C"
+        }
+      ],
+      "correct_answer": "d",
+      "explanations": {
+        "La traçabilité aide à" : "Sélection des tests de régression en termes d'analyse de l'impact des changements.Évaluer l'exhaustivité de l'exécution des tests, ce qui rend tests auditables. Identifier quelles user stories ont des rapports de défaut ouverts ce qui améliore la compréhensibilité des rapports de statut des tests pour inclure le statut des éléments de base de test. Évaluer si le nombre de tests pour chaque exigence est compatible avec le niveau de risque du produit qui fournit des informations pour évaluer la qualité du processus de test (c'est-à-dire l'alignement des efforts de test avec risque). Par conséquent, d est correct, conformément à la section 1.4.4"
+      }
+    },
+    {
+      "id": 7,
+      "question_text": "Un testeur a participé à une discussion sur la structure de la base de données proposée. Le testeur a identifié un problème potentiel de performance lié à certaines recherches courantes des utilisateurs. Ce problème potentiel a été expliqué à l'équipe de développement. Parmi les propositions suivantes, quelle est la contribution des tests au succès qui correspond le MIEUX à cette situation ?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Permettre d'identifier les tests nécessaires à un stade précoce."
+        },
+        {
+          "id": "b",
+          "text": "Garantir que les processus sont exécutés correctement"
+        },
+        {
+          "id": "c",
+          "text": "Réduire le risque de défauts de conception fondamentaux"
+        },
+        {
+          "id": "d",
+          "text": "Réduire le risque de fonctionnalités non testables."
+        }
+      ],
+      "correct_answer": "c",
+      "explanations": {}
+    },
+    {
+      "id": 8,
+      "question_text": "Lequel des éléments suivants est un exemple de tâche qui peut être exécutée dans le cadre du processus de test ?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Analyser un défaut"
+        },
+        {
+          "id": "b",
+          "text": "Créer des données de test"
+        },
+        {
+          "id": "c",
+          "text": "Identifier la version d'un élément de test"
+        },
+        {
+          "id": "d",
+          "text": "Rédiger une user story"
+        }
+      ],
+      "correct_answer": "b",
+      "explanations": {}
+    },
+    {
+      "id": 9,
+      "question_text": "Vous effectuez un test de performance dans le but de trouver d'éventuels goulots d'étranglement dans les interfaces entre les composants d'un système. Lequel des énoncés suivants décrit ce test ?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Un test fonctionnel au niveau du test d'intégration"
+        },
+        {
+          "id": "b",
+          "text": "Un test non fonctionnel au niveau du test d'intégration"
+        },
+        {
+          "id": "c",
+          "text": "Un test fonctionnel au niveau du test de composant"
+        },
+        {
+          "id": "d",
+          "text": "Un test non fonctionnel au niveau du test de composant"
+        }
+      ],
+      "correct_answer": "b",
+      "explanations": {}
+    },
+    {
+      "id": 10,
+      "question_text": "Lequel des énoncés suivants est vrai ?",
+      "options": [
+        {
+          "id": "a",
+          "text": "L'analyse d'impact est utile pour les tests de confirmation pendant les tests de maintenance."
+        },
+        {
+          "id": "b",
+          "text": "Les tests de confirmation sont utiles pour les tests de régression pendant la conception du système."
+        },
+        {
+          "id": "c",
+          "text": "L'analyse d'impact est utile pour les tests de régression pendant les tests de maintenance."
+        },
+        {
+          "id": "d",
+          "text": "Les tests de confirmation sont utiles pour les analyses d'impact pendant les tests de maintenance."
+        }
+      ],
+      "correct_answer": "c",
+      "explanations": {
+        "a) N'est pas correct" : "alors que l'analyse d'impact est utile pendant les tests de maintenance, selon la section 2.4, elle n'est pas nécessaire pour les tests de confirmation, puisque les tests de confirmation portent sur les effets prévus d'une correction de bogue ou d'un autre changement selon la section 2.3.",
+        "b) N'est pas correct" : "selon la section 2.3, les tests de confirmation et de régression sont deux activités distinctes, et les tests de confirmation ne font pas partie de la conception du système.",
+        "c) Est correct" : "selon la section 2.4, l'analyse d'impact peut être utilisée pour sélectionner les tests de régression pour les tests de maintenance.",
+        "d) N'est pas correct" : "les tests de confirmation ne font pas partie de l'analyse d'impact, selon la section 2.4, bien que les tests de confirmation aient généralement lieu pendant les tests de maintenance."
+      }
+    },
+    {
+      "id": 11,
+      "question_text": "Considérez les types de défauts suivants sur lesquels un niveau de test pourrait se concentrer : 1. Défauts dans les modules ou objets testables séparément 2. Non centré sur l'identification des défauts 3. Défauts dans les interfaces et les interactions 4. Défauts dans l'ensemble de l'objet du test Laquelle des listes suivantes correspond correctement aux niveaux de test du syllabus Foundation avec les options d'identification des défauts données ci-dessus ?",
+      "options": [
+        {
+          "id": "a",
+          "text": "1 = test de performance ; 2 = test de composant ; 3 = test de système ; 4 = test d'acceptation"
+        },
+        {
+          "id": "b",
+          "text": "1 = test de composant ; 2 = test d'acceptation ; 3 = test de système ; 4 = test d'intégration"
+        },
+        {
+          "id": "c",
+          "text": "1 = test de composant ; 2 = test d'acceptation ; 3 = test d'intégration ; 4 = test de système"
+        },
+        {
+          "id": "d",
+          "text": "1 = test d'intégration ; 2 = test du système ; 3 = test du composant ; 4 = test d'acceptation"
+        }
+      ],
+      "correct_answer": "c",
+      "explanations": {"explication": "Le test de performance est un type de test selon la section 2.3, et non un niveau de test. Conformément à la section 2.2., les tests de composants se concentrent sur les défauts des modules ou objets testables séparément, les tests d'intégration sur les défauts dans les interfaces et les interactions, les tests de système sur les défauts dans l'ensemble de l'objet de test, et les tests d'acceptation ne sont généralement pas axés sur l'identification des défauts. Par conséquent, c est la bonne réponse."
+}
+    },
+    {
+      "id": 12,
+      "question_text": "Un système d'exploitation grand public est conçu pour fonctionner sur tout PC équipé d'un processeur de la famille x86. Vous effectuez une série de tests pour rechercher les défauts liés à la prise en charge des différents PC qui utilisent un tel processeur et pour renforcer la confiance dans le fonctionnement des marques de PC importantes. Quel type de test effectuez vous ?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Test de performance"
+        },
+        {
+          "id": "b",
+          "text": "Test du processeur"
+        },
+        {
+          "id": "c",
+          "text": "Test fonctionnel"
+        },
+        {
+          "id": "d",
+          "text": "Test de portabilité"
+        }
+      ],
+      "correct_answer": "d",
+      "explanations": {}
+    },
+    {
+      "id": 13,
+      "question_text": "Au cours d'un effort de développement Agile, un product owner découvre une exigence réglementaire inconnue auparavant qui s'applique à la plupart des user stories dans un epic particulièr. Les user stories sont mises à jour pour prévoir les changements nécessaires dans le comportement du logiciel. Les programmeurs de l'équipe modifient le code de manière appropriée. En tant que testeur de l'équipe, quels types de tests allez-vous effectuer ?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Des tests de confirmation"
+        },
+        {
+          "id": "b",
+          "text": "Des tests de régression"
+        },
+        {
+          "id": "c",
+          "text": "Des tests fonctionnels"
+        },
+        {
+          "id": "d",
+          "text": "Tests liés aux changements"
+        }
+      ],
+      "correct_answer": "d",
+      "explanations": {}
+    },
+    {
+      "id": 14,
+      "question_text": "Dans une revue formelle, quel est le nom du rôle du participant qui dirige une réunion d'inspection ?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Facilitateur"
+        },
+        {
+          "id": "b",
+          "text": "Programmeur"
+        },
+        {
+          "id": "c",
+          "text": "Auteur"
+        },
+        {
+          "id": "d",
+          "text": "Chef de projet"
+        }
+      ],
+      "correct_answer": "a",
+      "explanations": {}
+    },
+    {
+      "id": 15,
+      "question_text": "Vous lisez une user story dans le backlog du produit pour préparer une réunion avec le product owner et un développeur, en notant les défauts potentiels au fur et à mesure. Lequel des énoncés suivants est vrai à propos de cette activité ?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Il ne s'agit pas d'un test statique, car le test statique implique l'exécution de l'objet de test."
+        },
+        {
+          "id": "b",
+          "text": "Il ne s'agit pas d'un test statique, car le test statique est toujours effectué à l'aide d'un outil."
+        },
+        {
+          "id": "c",
+          "text": "Il s'agit d'un test statique, car tous les défauts que vous trouvez pourraient être trouvés moins chers pendant le test dynamique."
+        },
+        {
+          "id": "d",
+          "text": "Il s'agit d'un test statique, car le test statique n'implique pas l'exécution de l'objet à tester."
+        }
+      ],
+      "correct_answer": "d",
+      "explanations": {}
+    },
+    {
+      "id": 16,
+      "question_text": "Au cours d'une période de prolongation intensive du projet, un document sur l'architecture du système est envoyé à divers participants au projet, annonçant une revue technique non prévue qui aura lieu dans une semaine. Aucune modification n'est apportée à la liste des tâches assignées aux participants. Sur la base de cette seule information, lequel des éléments suivants est un facteur de réussite de la revue qui fait défaut ?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Un type de revue approprié"
+        },
+        {
+          "id": "b",
+          "text": "Un temps de préparation adéquat"
+        },
+        {
+          "id": "c",
+          "text": "Des paramètres suffisants pour évaluer l'auteur"
+        },
+        {
+          "id": "d",
+          "text": "Une réunion de revue bien gérée"
+        }
+      ],
+      "correct_answer": "b",
+      "explanations": {}
+    },
+    {
+      "id": 17,
+      "question_text": "Vous travaillez comme testeur au sein d'une équipe Agile et avez participé à plus de deux douzaines de séances de raffinement des user stories avec le propriétaire du produit et les développeurs de l'équipe au début de chaque itération. Comme les revues sont devenues plus efficaces pour détecter les défauts dans les user stories et que le propriétaire du produit est plus apte à corriger ces défauts, vous et l'équipe remarquez que la vélocité de l'équipe, telle qu'elle apparaît dans vos graphiques d'avancement, a commencé à augmenter. Lequel des points suivants est un avantage du test statique qui s'applique le PLUS DIRECTEMENT à l'augmentation de la vélocité ?",
+      "options": [
+        {
+          "id": "a",
+          "text": "L'augmentation du coût total de la qualité"
+        },
+        {
+          "id": "b",
+          "text": "Réduire le coût des tests"
+        },
+        {
+          "id": "c",
+          "text": "Augmenter la productivité du développement"
+        },
+        {
+          "id": "d",
+          "text": "Réduction du coût total de la qualité"
+        }
+      ],
+      "correct_answer": "c",
+      "explanations": {}
+    },
+    {
+      "id": 18,
+      "question_text": "Vous travaillez sur un projet de développement de jeux vidéo, en utilisant les méthodes Agiles. Il est basé sur la mythologie et l'histoire grecques, et les joueurs peuvent jouer des rôles clés dans des scénarios tels que les batailles entre les Grecs et les Troyens. Considérez la user story suivante et ses critères d'acceptation associés : En tant que joueur, je souhaite pouvoir acquérir le Bâton de Midas (un nouvel objet magique), afin de pouvoir transformer les objets et les autres joueurs en or AC1 : Le bâton doit fonctionner sur n'importe quel objet ou joueur, quelle que soit sa taille, qui peut être touché n'importe où par le joueur tenant le bâton. AC2 : Tenir le bâton ne change pas le joueur qui le tient en or AC3 : Tout objet ou joueur touché par le bâton se transforme complètement en or en une milliseconde AC4 : la tige apparaît comme indiqué dans le prototype O.W.RoM AC5 : La transformation commence au point de contact avec la tige et se déplace à une vitesse d'un mètre par milliseconde (AC : Critère d’acceptation) Vous participez à une session de révision basée sur une liste de contrôle de cette user story. Cette user story et ses critères d'acceptation associés contiennent lesquels des défauts typiques suivants identifiés par des tests statiques dans ce type de produit de travail ?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Déviation par rapport aux normes"
+        },
+        {
+          "id": "b",
+          "text": "Contradiction"
+        },
+        {
+          "id": "c",
+          "text": "Vulnérabilité de sécurité"
+        },
+        {
+          "id": "d",
+          "text": "Écarts de couverture"
+        }
+      ],
+      "correct_answer": "b",
+      "explanations": {}
+    },
+    {
+      "id": 19,
+      "question_text": "Qu'est-ce que la couverture des décisions ?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Le pourcentage de résultats de conditions qui ont été exercés par une suite de tests"
+        },
+        {
+          "id": "b",
+          "text": "La couverture des décisions est synonyme de couverture des déclarations"
+        },
+        {
+          "id": "c",
+          "text": "Le pourcentage d'instructions exécutables qui ont été exercées par une suite de tests"
+        },
+        {
+          "id": "d",
+          "text": "Le pourcentage de résultats de décision qui ont été exercés par une suite de tests"
+        }
+      ],
+      "correct_answer": "d",
+      "explanations": {}
+    },
+    {
+      "id": 20,
+      "question_text": "Avant une session de planification d'itération, vous étudiez une user story et ses critères d'acceptation, en dérivant les conditions de test et les cas de test associés de la user story comme moyen d'appliquer le principe de l'assurance qualité et des tests précoces. Quelle technique de test appliquez-vous ?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Boîte blanche"
+        },
+        {
+          "id": "b",
+          "text": "Boîte noire"
+        },
+        {
+          "id": "c",
+          "text": "Basé sur l'expérience"
+        },
+        {
+          "id": "d",
+          "text": "Estimation d’erreur"
+        }
+      ],
+      "correct_answer": "b",
+      "explanations": {}
+    },
+    {
+      "id": 21,
+      "question_text": "Lequel des énoncés suivants est une affirmation vraie sur les tests exploratoires ?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Les testeurs plus expérimentés qui ont testé des applications et des technologies similaires sont susceptibles de faire mieux que les testeurs moins expérimentés lors des tests exploratoires"
+        },
+        {
+          "id": "b",
+          "text": "Les tests exploratoires n'identifient aucun test supplémentaire au-delà de ceux qui résulteraient des techniques de test formelles"
+        },
+        {
+          "id": "c",
+          "text": "Le temps requis pour effectuer une session de test exploratoire ne peut pas être prédit à l'avance"
+        },
+        {
+          "id": "d",
+          "text": "Les tests exploratoires peuvent impliquer l'utilisation de techniques de boîte noire mais pas de techniques de boîte blanche"
+        }
+      ],
+      "correct_answer": "a",
+      "explanations": {}
+    },
+    {
+      "id": 22,
+      "question_text": "Vous testez une application mobile qui permet aux clients d'accéder à leurs comptes bancaires et de les gérer. Vous exécutez une suite de tests qui consiste à évaluer chaque écran et chaque champ de chaque écran par rapport à une liste générale de meilleures pratiques d'interface utilisateur, tirée d'un livre populaire sur le sujet, qui maximise l'attrait, la facilité d'utilisation et l'accessibilité de telles applications. Laquelle des options suivantes catégorise le MIEUX la technique de test que vous utilisez ?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Basée sur les spécifications"
+        },
+        {
+          "id": "b",
+          "text": "Exploratoire"
+        },
+        {
+          "id": "c",
+          "text": "Basée sur des listes de contrôle"
+        },
+        {
+          "id": "d",
+          "text": "Estimation d’erreur"
+        }
+      ],
+      "correct_answer": "c",
+      "explanations": {}
+    },
+    {
+      "id": 23,
+      "question_text": "Considérons une application mobile qui permet aux clients d'accéder à leurs comptes bancaires et de les gérer. Une user story vient d'être ajoutée à l'ensemble des fonctionnalités qui vérifient les comptes de médias sociaux et les dossiers bancaires des clients afin de leur adresser des vœux personnalisés à l'occasion d'anniversaires ou d'autres événements importants. Laquelle des techniques de test suivantes un programmeur pourrait-il utiliser lors d'un test unitaire du code pour s'assurer que la couverture des situations où les salutations sont censées se produire et où les salutations ne sont PAS censées se produire ?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Test des instructions"
+        },
+        {
+          "id": "b",
+          "text": "Les tests exploratoires"
+        },
+        {
+          "id": "c",
+          "text": "Test de transition d'état"
+        },
+        {
+          "id": "d",
+          "text": "Test des décisions"
+        }
+      ],
+      "correct_answer": "d",
+      "explanations": {}
+    },
+    {
+      "id": 24,
+      "question_text": "Une application par lots est en production inchangée depuis plus de deux ans. Il fonctionne pendant la nuit une fois par mois pour produire des relevés qui seront envoyés par courrier électronique aux clients. Pour chaque client, l'application passe par chaque compte et répertorie toutes les transactions sur ce compte au cours du mois dernier. Il utilise une structure en boucle imbriquée pour traiter les clients (boucle externe), les comptes de chaque client (boucle intermédiaire) et les transactions de chaque compte (boucle interne). Une nuit, l'application par lots se termine prématurément, omettant d'envoyer des relevés par e-mail à certains clients, lorsqu'elle rencontre un client avec un compte pour lequel aucune transaction n'a eu lieu au cours du mois dernier. Il s'agit d'une situation très inhabituelle et qui ne s'est pas produite depuis que cette application a été mise en production. Lors de la correction du défaut, un programmeur vous demande de recommander des techniques de test efficaces contre ce type de défaut. Laquelle des techniques de test suivantes aurait probablement été en mesure de détecter le défaut sous-jacent ?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Test de décision"
+        },
+        {
+          "id": "b",
+          "text": "Test des instructions"
+        },
+        {
+          "id": "c",
+          "text": "Tests basés sur une liste de contrôle"
+        },
+        {
+          "id": "d",
+          "text": "Estimation d’erreur"
+        }
+      ],
+      "correct_answer": "a",
+      "explanations": {}
+    },
+    {
+      "id": 25,
+      "question_text": "Vous testez une pompe à essence sans surveillance qui n'accepte que les cartes de crédit. Une fois que la carte de crédit est validée, que le pistolet de la pompe est placé dans le réservoir et que le carburant souhaité est sélectionné, le client entre la quantité de carburant souhaitée en litres à l'aide du clavier. Le clavier ne permet que la saisie de chiffres. Le carburant est vendu en dixièmes (0,1) de litre, jusqu'à 50,0 litres. Lequel des éléments suivants est un ensemble minimum de quantités souhaitées qui couvre les partitions d'équivalence pour cette entrée ?",
+      "options": [
+        {
+          "id": "a",
+          "text": "0.0, 20.0, 60.0"
+        },
+        {
+          "id": "b",
+          "text": "0.0, 0.1, 50.0"
+        },
+        {
+          "id": "c",
+          "text": "0.0, 0.1, 50.0, 70.0"
+        },
+        {
+          "id": "d",
+          "text": "-0.1, 0.0, 0.1, 49.9, 50.0, 50.1"
+        }
+      ],
+      "correct_answer": "a",
+      "explanations": {
+        "a": "Est correcte : cet ensemble de valeurs d'entrée a exactement un test par partition d'équivalence.",
+        "b": "N'est pas correct : cet ensemble de valeurs d'entrée ne couvre pas la partition de quantité non valide.",
+        "c": "N'est pas correct : cet ensemble de valeurs d'entrée a deux tests pour la partition d'équivalence de vente valide, ce qui n'est pas le minimum.",
+        "d": "N'est pas correct : cet ensemble de valeurs d'entrée couvre les valeurs de la limite à trois points pour les deux limites, ce qui n'est pas le minimum pour les deux frontières, ce qui n'est pas le nombre minimum requis pour couvrir les partitions d'équivalence."
+      }
+    },
+    {
+      "id": 26,
+      "question_text": "Vous testez un système de commerce électronique qui vend des fournitures de cuisine telles que des épices, de la farine et d'autres articles en vrac. Les unités dans lesquelles les articles sont vendus sont soit des grammes (pour les épices et autres articles coûteux), soit des kilogrammes (pour la farine et autres articles peu coûteux). Quelle que soit l'unité, le plus petit montant de commande valide est de 0,5 unité (par exemple, un demi-gramme de gousses de cardamome) et le plus grand montant de commande valide est de 25,0 unités (par exemple, 25 kilogrammes de sucre). La précision du champ unités est de 0,1 unité. Laquelle des valeurs suivantes est un ensemble de valeurs d'entrée qui couvre les valeurs limites avec des valeurs limites à deux valeurs pour ce champ ?",
+      "options": [
+        {
+          "id": "a",
+          "text": "0.3, 10.0, 28.0"
+        },
+        {
+          "id": "b",
+          "text": "0.4, 0.5, 0.6, 24,9,25,0, 25.1"
+        },
+        {
+          "id": "c",
+          "text": "0.4, 0.5, 25.0 25.1"
+        },
+        {
+          "id": "d",
+          "text": "0.5, 0.6, 24.9, 25.0"
+        }
+      ],
+      "correct_answer": "c",
+      "explanations": {
+        "a": "N'est pas correcte : aucune de ces quatre valeurs limites n'est incluse dans cette série de tests. Ces tests couvrent bien les partitions d'équivalence.",
+        "b": "N'est pas correct : ces quatre valeurs limites sont incluses dans cette série de tests, mais deux valeurs supplémentaires sont incluses, une pour chaque limite. Ce sont les valeurs associées à l'analyse des valeurs limites en trois points.",
+        "c": "Est correct : chacune de ces quatre valeurs limites à deux points est incluse dans cette série de tests.",
+        "d": "N'est pas correct : ces quatre valeurs sont toutes incluses dans la partition valide."
+      }
+    },
+    {
+      "id": 27,
+      "question_text": "Considérez le tableau de décision suivant pour la partie d'un système de réservation en ligne de compagnies aériennes qui permet aux grands voyageurs d'échanger des points contre des voyages de récompense : Supposons qu'il existe deux partitions d'équivalence pour la condition où Compte/mot de passe ok n'est pas vrai, une où le compte n'est pas valide et une autre où le compte est valide mais le mot de passe n'est pas valide. Supposons qu'il n'existe qu'une seule partition d'équivalence correspondant à la condition où Compte/mot de passe ok est vrai, où le compte et le mot de passe sont tous deux valides. Si vous voulez concevoir des tests pour couvrir les partitions d'équivalence pour Compte/mot de passe OK et également pour cette partie de la table de décision, quel est le nombre minimum de tests requis ?",
+      "options": [
+        {
+          "id": "a",
+          "text": "2"
+        },
+        {
+          "id": "b",
+          "text": "3"
+        },
+        {
+          "id": "c",
+          "text": "4"
+        },
+        {
+          "id": "d",
+          "text": "9"
+        }
+      ],
+      "correct_answer": "c",
+      "explanations": {}
+    },
+    {
+      "id": 28,
+      "question_text": "Considérons le diagramme de transition d'état suivant pour une pompe à essence sans surveillance, fonctionnant uniquement avec des cartes de crédit : Supposons que vous souhaitiez développer le nombre minimum de tests pour couvrir chaque transition dans le diagramme de transition d'état. Supposons en outre que chaque test doit commencer à l'état de début, En attente de client, et que chaque test se termine lorsqu'une transition arrive à l'état de début. De combien de tests avez-vous besoin ?",
+      "options": [
+        {
+          "id": "a",
+          "text": "4"
+        },
+        {
+          "id": "b",
+          "text": "7"
+        },
+        {
+          "id": "c",
+          "text": "1"
+        },
+        {
+          "id": "d",
+          "text": "Infini"
+        }
+      ],
+      "correct_answer": "a",
+      "explanations": {}
+    },
+    {
+      "id": 29,
+      "question_text": "Vous testez un système de commerce électronique qui vend des fournitures de cuisine telles que des épices, de la farine et d'autres articles en vrac. articles en vrac. Les unités dans lesquelles les articles sont vendus sont soit des grammes (pour les épices et autres articles coûteux), soit des kilogrammes (pour la farine et autres articles peu coûteux). articles coûteux) ou des kilogrammes (pour la farine et les autres articles peu coûteux). Quelle que soit l'unité, la plus petite quantité de commande valide est de 0,5 unité (0,5 kg). commande valide la plus petite est de 0,5 unité (par exemple, un demi-gramme de gousses de cardamome) et la plus grande est de 25 unités (par exemple, un kilogramme de farine). 25,0 unités (par exemple, 25 kilogrammes de sucre). La précision du champ unités est de 0,1 unité. Lequel des éléments suivants est un ensemble MINIMAL de valeurs d'entrée qui couvre les partitions d'équivalence pour ce champ ?",
+      "options": [
+        {
+          "id": "a",
+          "text": "10.0, 28.0"
+        },
+        {
+          "id": "b",
+          "text": "0.4, 0.5, 25.0, 25.1"
+        },
+        {
+          "id": "c",
+          "text": "0.2, 0.9, 29.5"
+        },
+        {
+          "id": "d",
+          "text": "12.3"
+        }
+      ],
+      "correct_answer": "c",
+      "explanations": {
+        "a": "N'est pas correct : seules deux des partitions d'équivalence sont couvertes par cet ensemble de tests.",
+        "b": "N'est pas correct : chacune de ces quatre valeurs limites est incluse dans cet ensemble de tests, mais la question posée pour la couverture de la partition d'équivalence avec des tests minimaux, donc 0,5 ou 25,0 doit être supprimée.",
+        "c": "Est correct : chacune de ces trois partitions d'équivalence est couverte dans cette série de tests.",
+        "d": "N'est pas correct : une seule de ces partitions d'équivalence est couverte par ce test."
+      }
+    },
+    {
+      "id": 30,
+      "question_text": "Vous travaillez en tant que testeur sur un système bancaire en ligne. La disponibilité est considérée comme l'un des principaux risques liés au produit (qualité) pour le système. Vous trouvez une défaillance reproductible qui fait que les clients perdent leur connexion au site Web de la banque lorsqu'ils transfèrent des fonds entre des types de comptes courants et ne peuvent pas se reconnecter pendant trois à cinq minutes. Lequel des éléments suivants constituerait un bon résumé pour un rapport de défaut relatif à cette défaillance, un rapport qui saisit à la fois l'essence de la défaillance et son impact sur les parties prenantes ?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Les journaux du serveur Web indiquent l'erreur 0x44AB27 lors de l'exécution du test 07.005, ce qui n'est pas un message d'erreur attendu dans le système de fichiers /tmp."
+        },
+        {
+          "id": "b",
+          "text": "Les développeurs ont introduit un défaut de disponibilité majeur qui va sérieusement perturber nos clients."
+        },
+        {
+          "id": "c",
+          "text": "Les performances sont lentes et la fiabilité vacillante sous charge."
+        },
+        {
+          "id": "d",
+          "text": "Une transaction typique de transfert de fonds entraîne la fin de la session du client, avec un retard dans la disponibilité lors de la tentative de reconnexion."
+        }
+      ],
+      "correct_answer": "d",
+      "explanations": {
+        "c": "N'est pas correct : ce résumé ne fournit pas aux développeurs ou aux gestionnaires les informations nécessaires décrites dans la section 5.6 et attaque les développeurs (voir section 1.5).",
+        "d": "Est correct : ce résumé donne une bonne idée de la défaillance et de son impact, en fournissant les informations décrites dans la section 5.6."
+      }
+    },
+    {
+      "id": 31,
+      "question_text": "Vous testez une application mobile qui permet aux utilisateurs de trouver un restaurant à proximité, en fonction du type de nourriture qu'ils souhaitent manger. Considérez la liste suivante de cas de test, de priorités (un nombre plus petit correspond à une priorité élevée) et de dépendances, au format suivant : Lequel des éléments suivants est un calendrier d'exécution de test possible qui tient compte à la fois des priorités et des dépendances ?",
+      "options": [
+        {
+          "id": "a",
+          "text": "01.001, 01.002, 01.003, 01.005, 01.004"
+        },
+        {
+          "id": "b",
+          "text": "01.001, 01.002, 01.004, 01.003, 01.005"
+        },
+        {
+          "id": "c",
+          "text": "01.003, 01.004, 01.002, 01.001, 01.002"
+        },
+        {
+          "id": "d",
+          "text": "01.001, 01.002, 01.004, 01.005, 01.003"
+        }
+      ],
+      "correct_answer": "b",
+      "explanations": {}
+    },
+    {
+      "id": 32,
+      "question_text": "Lequel des éléments suivants est une métrique de test courante souvent utilisée pour surveiller À LA FOIS la préparation et l'exécution des tests ?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Statut du cas de test"
+        },
+        {
+          "id": "b",
+          "text": "Taux de détection/résolution des défauts"
+        },
+        {
+          "id": "c",
+          "text": "Préparation de l'environnement de test"
+        },
+        {
+          "id": "d",
+          "text": "Estimation du coût pour trouver le prochain défaut"
+        }
+      ],
+      "correct_answer": "a",
+      "explanations": {}
+    },
+    {
+      "id": 33,
+      "question_text": "Parmi les facteurs suivants, lesquels peuvent être utilisés pour déterminer le niveau de risque ?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Test et développement"
+        },
+        {
+          "id": "b",
+          "text": "Dynamique et réactif"
+        },
+        {
+          "id": "c",
+          "text": "Instruction et décision"
+        },
+        {
+          "id": "d",
+          "text": "Probabilité et impact"
+        }
+      ],
+      "correct_answer": "d",
+      "explanations": {}
+    },
+    {
+      "id": 34,
+      "question_text": "Vous travaillez en tant que chef de projet sur un projet de logiciel bancaire interne. Pour éviter les retouches et les cycles de recherche/réparation/retest excessifs, le processus suivant a été mis en place pour résoudre un défaut une fois qu'il est détecté dans le laboratoire de test : 1. Le développeur désigné trouve et corrige le défaut, puis crée une version expérimentale 2. Un développeur pair examine, teste à l'unité et teste la confirmation du correctif sur son bureau 3. Un testeur, généralement celui qui a trouvé le défaut, teste la confirmation du correctif dans l'environnement de développement 4. Une fois par jour, une nouvelle version avec tous les correctifs de défauts confirmés inclus, est installée dans l'environnement de test 5. Le même testeur de la confirmation de l'étape 3 teste la correction du défaut dans l'environnement de test. les résultats de reprise et de temps de cycle qui en résultent. Vous avez la plus grande confiance en vos testeurs et avez exclu les erreurs ou les omissions à l'étape 3. Parmi les éléments suivants, lequel est le plus susceptible d'être vérifié ensuite ?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Les développeurs, qui ne testent peut-être pas correctement à l'étape 2"
+        },
+        {
+          "id": "b",
+          "text": "Les testeurs, qui peuvent être confus quant à ce qu'il faut tester à l'étape 5"
+        },
+        {
+          "id": "c",
+          "text": "Gestion de la configuration, qui peut ne pas maintenir l'intégrité du produit à l'étape 4"
+        },
+        {
+          "id": "d",
+          "text": "Les développeurs, qui ne corrigent peut-être pas correctement les défauts à l'étape 1"
+        }
+      ],
+      "correct_answer": "c",
+      "explanations": {
+        "c": "Est correct : selon la section 5.4, la gestion de la configuration maintient l'intégrité du logiciel. Si un test qui réussit à l'étape 3 échoue à l'étape 5, alors quelque chose est différent entre ces deux étapes. Une différence possible est l'objet de test, l'option répertoriée ici. Une autre différence possible est entre l'environnement de développement et l'environnement de test, mais ce n'est pas une option répertoriée ici.",
+        "d": "N'est pas correct : si les développeurs ne corrigeaient pas le défaut, le test de confirmation ne passerait pas à l'étape 3"
+      }
+    },
+    {
+      "id": 35,
+      "question_text": "Vous êtes en train de planifier un effort de test pour une nouvelle application bancaire mobile. Dans le cadre de l'estimation, vous rencontrez d'abord les testeurs proposés et d'autres sur le projet. L'équipe est bien coordonnée et a déjà travaillé sur des projets similaires. Pour vérifier l'estimation qui en résulte, vous vous référez ensuite à certaines moyennes de l'industrie pour tester l'effort et les coûts sur des projets similaires, publiées par un consultant réputé. Quel énoncé décrit avec précision votre approche d'estimation ?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Une approche à la fois experte et métrique"
+        },
+        {
+          "id": "b",
+          "text": "Principalement une approche basée sur des experts, complétée par une approche basée sur des métriques"
+        },
+        {
+          "id": "c",
+          "text": "Principalement une approche basée sur des métriques, complétée par une approche basée sur des experts"
+        },
+        {
+          "id": "d",
+          "text": "Principalement le planning poker, vérifié par la vélocité des burndown charts."
+        }
+      ],
+      "correct_answer": "b",
+      "explanations": {
+        "a": "N'est pas correct : les deux méthodes sont utilisées séquentiellement, et non simultanément.",
+        "b": "Est correct : les principales sources d'information proviennent des testeurs expérimentés, qui sont les experts. Les moyennes de l'industrie du consultant augmentent l'estimation originale à partir des mesures publiées.",
+        "c": "N'est pas correct : l'approche basée sur les experts est l'approche principale, complétée par une approche basée sur les métriques.",
+        "d": "N'est pas correct : nous ne savons pas si ce projet suit les méthodes Agiles, et les burndown charts ne proviennent pas de sources externes."
+      }
+    },
+    {
+      "id": 36,
+      "question_text": "Au cours d'un projet qui suit les méthodes Agile, vous trouvez une divergence entre l'interprétation d'un critère d'acceptation par le développeur et l'interprétation du product owner, que vous soulevez au cours d'une session de raffinement de l'histoire d'utilisateur. Lequel des points suivants est un avantage de l'indépendance des tests illustré par cette situation ?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Reconnaître différents types de défaillances"
+        },
+        {
+          "id": "b",
+          "text": "Assumer la responsabilité principale de la qualité"
+        },
+        {
+          "id": "c",
+          "text": "Éliminer un défaut rapidement"
+        },
+        {
+          "id": "d",
+          "text": "Remettre en question les hypothèses des parties prenantes"
+        }
+      ],
+      "correct_answer": "d",
+      "explanations": {}
+    },
+    {
+      "id": 37,
+      "question_text": "Vous définissez le processus d'analyse des risques produit dans le cadre de chaque itération d'un projet Agile. Lequel des éléments suivants est le bon endroit pour documenter ce processus dans un plan de test ?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Portée des tests"
+        },
+        {
+          "id": "b",
+          "text": "Approche de test"
+        },
+        {
+          "id": "c",
+          "text": "Métriques des tests"
+        },
+        {
+          "id": "d",
+          "text": "Gestion de la configuration de l'objet à tester"
+        }
+      ],
+      "correct_answer": "b",
+      "explanations": {
+        "a": "N'est pas correct: bien que la portée soit un sujet abordé dans un plan de test selon la section 5.2.1, la mise en œuvre d'une stratégie de test basée sur les risques sur ce projet est l'approche, donc ce sujet doit être traité dans cette section.",
+        "b": "Est correct: l'approche est un sujet abordé dans un plan de test selon la section 5.2.1, et la mise en œuvre d'une stratégie de test basée sur les risques sur ce projet est l'approche.",
+        "c": "N'est pas correct: bien que les mesures de surveillance et de contrôle des tests soient un sujet abordé dans un plan de test selon la section 5.2.1, la mise en œuvre d'une stratégie de test basée sur les risques sur ce projet est l'approche, donc ce sujet doit être traité dans cette section.",
+        "d": "N'est pas correct: la gestion de la configuration n'est pas un sujet abordé dans un plan de test selon la section 5.2.1."
+}
+    },
+    {
+      "id": 38,
+      "question_text": "Considérez la liste suivante de résultats indésirables qui pourraient survenir lors d'un effort de développement d'applications mobiles : A. Totaux incorrects sur les rapports B. Modification des critères d'acceptation lors des tests d'acceptation C. Les utilisateurs trouvent le clavier logiciel trop difficile à utiliser avec votre application D. Le système répond trop lentement à la saisie de l'utilisateur lors de la saisie de la chaîne de recherche E. Les testeurs ne sont pas autorisés à communiquer les résultats des tests lors des réunions quotidiennes Lequel des éléments suivants classe correctement ces résultats en tant que risques de projet et de produit ?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Risques produit : B, E ; Risques projet : A, C, D"
+        },
+        {
+          "id": "b",
+          "text": "Risques produits : A, C, D ; Risques projet : B, E"
+        },
+        {
+          "id": "c",
+          "text": "Risques produit : A, C, D, E Risques projet : B"
+        },
+        {
+          "id": "d",
+          "text": "Risques produit : A, C Risques projet : B, D, E"
+        }
+      ],
+      "correct_answer": "b",
+      "explanations": {
+        "a": "N'est pas correct: cette liste est entièrement à l'envers.",
+        "b": "Correct.",
+        "c": "N'est pas correct: alors que e concerne la qualité et les risques du produit, le défaut de communication des résultats des tests est un risque du projet selon le programme.",
+        "d": "N'est pas correct: les risques produit peuvent être fonctionnels et non fonctionnels, donc d est également un risque produit."
+      }
+    },
+    {
+      "id": 39,
+      "question_text": "Vous venez de terminer un projet pilote pour un outil de test de régression. Vous comprenez beaucoup mieux l'outil et avez adapté votre processus de test en conséquence. Vous avez normalisé une approche d'utilisation de l'outil et ses produits de travail associés. Lequel des objectifs suivants est un objectif typique de projet pilote d'automatisation des tests qui reste à réaliser ?",
+      "options": [
+        {
+          "id": "a",
+          "text": "En savoir plus sur l'outil"
+        },
+        {
+          "id": "b",
+          "text": "Voir comment l'outil s'intégrerait aux processus et pratiques existants"
+        },
+        {
+          "id": "c",
+          "text": "Décider des méthodes standard d'utilisation, de gestion, de stockage et de maintenance de l'outil et des actifs de test"
+        },
+        {
+          "id": "d",
+          "text": "Évaluer si les avantages seront obtenus à un coût raisonnable"
+        }
+      ],
+      "correct_answer": "d",
+      "explanations": {}
+    },
+    {
+      "id": 40,
+      "question_text": "Lequel des outils suivants est le plus utile pour générer des rapports sur les métriques de test ?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Outil de gestion des tests"
+        },
+        {
+          "id": "b",
+          "text": "Outil d'analyse statique"
+        },
+        {
+          "id": "c",
+          "text": "Outil de couverture"
+        },
+        {
+          "id": "d",
+          "text": "Outil de sécurité"
+        }
+      ],
+      "correct_answer": "a",
+      "explanations": {}
+    }
+  ]
+}
